@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --yellow: #E08600;
+}
+
+
+/*apply button*/
+
+.apply {
+    background-color: var(--yellow);
+    border: #E08600;
+}
+
+.apply:hover {
+    background-color: white;
+    color: var(--yellow);
+    border-color: #E08600;
+    border: 1px solid;
+}
+
+
+/*apply_link button*/
+
+.Apply-link {
+    color: var(--yellow);
+}
+
+.icones {
+    color: var(--yellow);
+}
+
+.fas {
+    color: var(--yellow);
+}
