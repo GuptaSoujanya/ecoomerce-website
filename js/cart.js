@@ -1,4 +1,3 @@
-console.log("check")
 var product_total_amt = document.getElementById('product_total_amt');
 var shipping_charge = document.getElementById('shipping_charge');
 var total_cart_amt = document.getElementById('total_cart_amt');
@@ -48,3 +47,5 @@ const discount_code = () => {
         error_trw.innerHTML = "Try Again! Valid code";
     }
 }
+
+///
